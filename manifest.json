@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "ricardo-ti.pip-solver",
+  "name": "PiP Solver",
+  "version": "1.0.0",
+  "author": "Ricardo Franco",
+  "license": "MIT",
+  "description": "Makes every picture-in-picture window float, stay on top, keep the video aspect ratio, resize from its edges, and hold the screen awake while active.",
+  "kinds": ["service"],
+  "entryPoints": {
+    "service": "Service.qml"
+  }
+}
